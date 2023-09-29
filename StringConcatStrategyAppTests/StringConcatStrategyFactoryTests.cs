@@ -15,22 +15,22 @@ public class StringConcatStrategyFactoryTests
     [Test]
     public void CreateStrategy_Choice2_ReturnsStringBuilderStrategy()
     {
-        var strategy = StringConcatStrategyFactory.CreateStrategy(2);
-        Assert.That(strategy, Is.InstanceOf<StringBuilderStrategy>());
+        // TODO: Update this test once the StringBuilderStrategy class is implemented.
+        Assert.Fail("StringBuilderStrategy class not implemented yet.");
     }
 
     [Test]
     public void CreateStrategy_Choice3_ReturnsStringFormatStrategy()
     {
-        var strategy = StringConcatStrategyFactory.CreateStrategy(3);
-        Assert.That(strategy, Is.InstanceOf<StringFormatStrategy>());
+        // TODO: Update this test once the StringFormatStrategy class is implemented.
+        Assert.Fail("StringFormatStrategy class not implemented yet.");
     }
 
     [Test]
     public void CreateStrategy_Choice4_ReturnsStringInterpolationStrategy()
     {
-        var strategy = StringConcatStrategyFactory.CreateStrategy(4);
-        Assert.That(strategy, Is.InstanceOf<StringInterpolationStrategy>());
+        // TODO: Update this test once the StringInterpolationStrategy class is implemented.
+        Assert.Fail("StringInterpolationStrategy class not implemented yet.");
     }
 
     [Test]

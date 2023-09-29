@@ -4,10 +4,11 @@ public static class UserInputValidator
 {
     public static bool IsValidChoice(string? input, out int choice)
     {
-        var isValidInt = int.TryParse(input, out choice);
-        
-        const int minChoice = 1;
-        const int maxChoice = 4;
-        return isValidInt && choice is >= minChoice and <= maxChoice;
+        // TODO: Try to parse the input string to an integer and store it in 'choice'
+        // TODO: Define constants for the minimum and maximum valid choices (e.g., 1 and 4)
+        // TODO: Use the parsed integer and the constants to determine if the input is valid
+        // TODO: Return true if valid, false otherwise
+
+        throw new NotImplementedException();
     }
 }

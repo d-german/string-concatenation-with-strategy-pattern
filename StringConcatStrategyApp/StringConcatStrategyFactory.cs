@@ -9,11 +9,11 @@ public static class StringConcatStrategyFactory
             case 1:
                 return new PlusOperatorStrategy();
             case 2:
-                return new StringBuilderStrategy();
+                // TODO: return new StringBuilderStrategy();
             case 3:
-                return new StringFormatStrategy();
+                // TODO: return new StringFormatStrategy();
             case 4:
-                return new StringInterpolationStrategy();
+                // TODO: return new StringInterpolationStrategy();
             default:
                 return new PlusOperatorStrategy();
         }
