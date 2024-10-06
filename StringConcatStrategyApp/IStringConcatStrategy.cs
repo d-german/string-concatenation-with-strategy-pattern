@@ -2,15 +2,14 @@ namespace StringConcatStrategyApp;
 
 public interface IStringConcatStrategy
 {
-    string GenerateGreeting(Person person);
+    // TODO: Define a method that generates a greeting string based on the provided Person object.
 }
 
-public class PlusOperatorStrategy : IStringConcatStrategy
+public class PlusOperatorStrategy
 {
-    public string GenerateGreeting(Person person)
-    {
-        return "Hello, " + person.FirstName + " " + person.LastName + "!";
-    }
+    // TODO: Implement the IStringConcatStrategy interface by defining the GenerateGreeting method
+    // to concatenate the person's first and last name using the plus operator and return a greeting string.
+    // "Hello, " + person.FirstName + " " + person.LastName + "!";
 }
 
 // TODO: Implement the StringBuilderStrategy class that should concatenate a greeting message using StringBuilder.

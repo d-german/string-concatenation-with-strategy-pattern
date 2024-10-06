@@ -18,11 +18,10 @@ internal static class Program
             return;
         }
 
-        var strategy = StringConcatStrategyFactory.CreateStrategy(choice);
-
         // TODO: Uncomment the following after you implement GreetingService to take a strategy as a constructor parameter
+        // var strategy = StringConcatStrategyFactory.CreateStrategy(choice);
         var service = new GreetingService( /*strategy*/);
         var person = new Person("John", "Doe");
-        service.DisplayGreeting(person);
+        // service.DisplayGreeting(person);
     }
 }

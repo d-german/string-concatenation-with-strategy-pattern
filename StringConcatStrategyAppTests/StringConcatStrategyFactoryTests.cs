@@ -8,8 +8,9 @@ public class StringConcatStrategyFactoryTests
     [Test]
     public void CreateStrategy_Choice1_ReturnsPlusOperatorStrategy()
     {
-        var strategy = StringConcatStrategyFactory.CreateStrategy(1);
-        Assert.That(strategy, Is.InstanceOf<PlusOperatorStrategy>());
+        //TODO: Uncomment the following after you implement the PlusOperatorStrategy class.
+        //var strategy = StringConcatStrategyFactory.CreateStrategy(1);
+        //Assert.That(strategy, Is.InstanceOf<PlusOperatorStrategy>());
     }
 
     [Test]
@@ -36,7 +37,8 @@ public class StringConcatStrategyFactoryTests
     [Test]
     public void CreateStrategy_InvalidChoice_ReturnsDefaultPlusOperatorStrategy()
     {
-        var strategy = StringConcatStrategyFactory.CreateStrategy(5);
-        Assert.That(strategy, Is.InstanceOf<PlusOperatorStrategy>());
+        // TODO: Uncomment the following after you implement the PlusOperatorStrategy class.
+        // var strategy = StringConcatStrategyFactory.CreateStrategy(5);
+        // Assert.That(strategy, Is.InstanceOf<PlusOperatorStrategy>());
     }
 }
